@@ -13,3 +13,7 @@
 - Trig ต่อกับขา 18
 - Echo ต่อกับขา 19
 - Gnd ต่อกับขา GND หรือ 23, 21
+
+## ตัวอย่างโปรแกรม
+![Ultrasonic-Example](ultrasonic/Doc/Basic-use.png)
+ถ้าหากบน LED ขึ้นค่าระยะทาง แปลว่าสามารถทำงานได้สำเร็จ
