@@ -13,38 +13,38 @@ Blockly.Blocks["ultrasonic.data"] = {
     }
 };
 
-Blockly.Blocks["ultrasonic.recieved"] = {
-    init: function() {
-        this.appendDummyInput()
-            .appendField("recieved ultrasonic");
+// Blockly.Blocks["ultrasonic.recieved"] = {
+//     init: function() {
+//         this.appendDummyInput()
+//             .appendField("recieved ultrasonic");
 
-        this.appendStatementInput("DO")
-            .appendField("do");
+//         this.appendStatementInput("DO")
+//             .appendField("do");
 
-        this.setInputsInline(false);
-        this.setPreviousStatement(true);
-        this.setNextStatement(true);
-        this.setColour(ultrasonic_color_hue);
-        this.setTooltip("18 = trig, 19 = echo");
-        this.setHelpUrl(Blockly.Msg.BLINK_START_HELPURL);
-    }
-};
+//         this.setInputsInline(false);
+//         this.setPreviousStatement(true);
+//         this.setNextStatement(true);
+//         this.setColour(ultrasonic_color_hue);
+//         this.setTooltip("18 = trig, 19 = echo");
+//         this.setHelpUrl(Blockly.Msg.BLINK_START_HELPURL);
+//     }
+// };
 
-Blockly.Blocks["ultrasonic.didEnter"] = {
-    init: function() {
-        this.appendDummyInput()
-            .appendField("did enter ultrasonic");
+// Blockly.Blocks["ultrasonic.didEnter"] = {
+//     init: function() {
+//         this.appendDummyInput()
+//             .appendField("did enter ultrasonic");
 
-        this.appendStatementInput("DO")
-            .appendField("do");
+//         this.appendStatementInput("DO")
+//             .appendField("do");
 
-        this.setInputsInline(false);
-        this.setPreviousStatement(true);
-        this.setNextStatement(true);
-        this.setColour(ultrasonic_color_hue);
-        this.setTooltip("18 = trig, 19 = echo");
-        this.setHelpUrl(Blockly.Msg.BLINK_START_HELPURL);
-    }
-};
+//         this.setInputsInline(false);
+//         this.setPreviousStatement(true);
+//         this.setNextStatement(true);
+//         this.setColour(ultrasonic_color_hue);
+//         this.setTooltip("18 = trig, 19 = echo");
+//         this.setHelpUrl(Blockly.Msg.BLINK_START_HELPURL);
+//     }
+// };
 
 
